@@ -37,7 +37,6 @@ public class TestScores {
         } catch (IllegalArgumentException e) {
             System.err.println("Error: " + e.getMessage());
         } finally {// This will ALWAYS execute even if there is no exception
-            System.out.println("This is avg " + Total / ValidArg);
             System.out.println("Done");
         }
     }
